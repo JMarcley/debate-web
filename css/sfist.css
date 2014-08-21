@@ -1,0 +1,39 @@
+.sfist #header #header-logo{background:url('http://assets.gothamistllc.com/logos/2012/SFist.png') no-repeat;}
+.sfist #site-header-left img {background:url('http://assets.gothamistllc.com/images/newsletter/logo_sfist.png') no-repeat;background-size:115px}
+.sfist #newHeader #newHeader-top .logo img {background:url('http://assets.gothamistllc.com/v7/img/logo_sfist.png') no-repeat;background-size:250px}
+
+body.chicagoist #header #weather {position:absolute;top:0;left:0px;}
+#container-inner, #site-header, #site-header-more, .interrupt {background:#dbbea0;}
+
+ul#footer-items li.item-contribute {width:320px}
+.item-contribute .item-photos img{display:block;width:150px;float:left}
+.item-contribute .item-photos img:first-child{padding-right:10px;}
+
+
+body.narrow #column .item-newsletter .item-inner{background-image:url('http://assets.gothamistllc.com/v5/images/sfistNewsletterNarrowColumn.jpg')}
+body.wide #column .item-newsletter .item-inner{background-image:url('http://assets.gothamistllc.com/v5/images/sfistNewsletterWideColumn.jpg')}
+body.sfist .fav-item-featured, body.sfist .main-pages #stage .category-title,.main-pages #stage h1, body.sfist a.asset-more-link:hover, body.sfist a.galleryNumRem:hover, body.sfist .main-pages #stage #stage-inner ul.entry-list li a:hover, body.sfist #main-blog-index span.category a:hover, .blog-one .content-nav .nav-one, .blog-two .content-nav .nav-two, .blog-three .content-nav .nav-three, .blog-four .content-nav .nav-four, .blog-five .content-nav .nav-five, .blog-six .content-nav .nav-six, .nav-left a:hover, .nav-right a:hover, .main-pages #stage #stage-inner ul.entry-list li a:hover, .content h1 a:link , .content h1 a:visited   {background-color:#A8927B!important;color:white;}
+.content-nav a:hover, .content h1 a:hover  {background-color:#DBBEA0;}
+a:hover, .main-pages #stage h2 a:hover, .main-item-footer .entry-comments a:hover, #footer-inner a:hover{color:#A8927B;}
+#entry .content-nav {background:#dbbea0}
+#entry .entry-tags li a:hover, #switcher ul li a:hover{background-color:#A8927B;background-image:-moz-linear-gradient(100% 100% 90deg,#A8927B,#DBBEA0);background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#DBBEA0),to(#A8927B));}
+
+#header #header-logo{background:url('http://assets.gothamistllc.com/logos/2012/SFist.png') no-repeat;}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and    (-moz-min-device-pixel-ratio: 2),
+       only screen and      (-o-min-device-pixel-ratio: 2),
+       only screen and         (min-device-pixel-ratio: 2) {
+  #header #header-logo {
+    background-image: url('http://assets.gothamistllc.com/logos/2012/SFist@2x.png');
+        background-size: 160px 170px;
+  }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px), only screen and (max-device-width: 480px) and (min-device-pixel-ratio: 2){
+    #header .header_c #header-logo{background:url('http://assets.gothamistllc.com/mobile/sfist_mobile_logo.gif') no-repeat;height:50px;background-size: auto auto}
+}
+
+body#entry #section-featured {background:#dbbea0;}
+body#entry #section-featured h1 {background:#A8927B;}

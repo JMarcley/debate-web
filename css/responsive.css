@@ -1,0 +1,45 @@
+/* wide site 5 header */
+@media screen and (min-width:1750px){
+	/*body.main-pretty #container {background:red!important;}*/
+	body #container-inner{width:1380px;}
+	body.pretty #main-content.content, body.pretty #top-content.content {width:1380px;}
+	.blog #main-content {width:1040px;}
+	.blog-full .main-item-footer {width:330px;}
+	.blog-summary .main-item-summary-content img, .blog-full .main-item-summary-content img {max-width: 640px}
+	.blog-summary .main-item-summary-content, .blog-full .main-item-summary-content {
+	    float: left;
+	    clear: none;
+	    width: 640px;
+	    padding-top: 20px;
+	}
+	#site-header, #newHeader {width:1340px}
+	#newHeader #newHeader-top ul.menu > li {padding-left:110px}
+	#site-header-right {width:1190px}
+	#site-header-right ul li {padding-left:68px}
+	#main-content #main-content-inner .content div.section-content {margin:20px 20px 0 20px;width:415px;}
+	#main-content #main-content-inner .content div#section-arts.section-content {padding: 0 20px 0;margin:20px 5px 0px 0px;}
+
+	.pretty-primary, pretty-secondary, .pretty-tertiary, .pretty-primary img.pretty-image {width:400px;}
+	div.entry-list-title {width:300px;/* width:auto */}
+	div.entry-list-title h2 a {width:300px;/* width:auto */}
+	.top-primary {width:410px}
+	.top-secondary, .top-secondary img.top-image {width:300px}
+	.top-primary .top-content  {width:410px;}
+	.top-primary img.top-image {height:auto;width:410px}
+	.top-secondary .top-content {width:300px;}
+	#section-featured ul {height:250px; width:auto;overflow:hidden;}
+	#section-getaways ul {/* height:250px; */ width:auto;overflow:hidden;}
+	#section-getaways .item4, #section-getaways .item5, #section-getaways .item6, #section-getaways .item7, #section-getaways .item8 {width:390px;height:310px;}
+	#header #header-cell.header-cell-two {width:1030px}
+	#header {width:1340px}
+	#header #header-left {width:1040px}
+	#header #header-ad {margin-left:1040px}
+	#header ul li {width:169px}
+	.wide .content {width:1030px;margin-left:20px}
+	.wide .content-inner {padding: 40px 160px 40px 40px}
+	#entry .entry-body, #entry .entry-body p, #entry .entry-body-more p {font-size: 18px; line-height:26px}
+		#sponsor-left {width:700px}
+	.sponsor-title {font-size:43px;line-height:46px}
+	.top-secondary.top-item5, .top-secondary.top-item6 {display:block}
+	#section-longform.interrupt ul li.infinate-item4, #section-galleries.interrupt ul li.infinate-item4 {display:inline-block}
+}

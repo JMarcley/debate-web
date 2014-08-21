@@ -1,0 +1,56 @@
+#debate {
+  margin-bottom: 20px;
+}
+
+.align-center{
+  text-align: center;
+}
+
+join-btn {
+  text-align: center
+}
+
+#debate {
+  margin: 0;
+  width: 100%;
+}
+
+.debate-default {
+  background-color: purple;
+  border-radius: 5px;
+}
+
+.full-screen-static {
+  margin: 20px;
+}
+
+.full-screen-anim {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0.9;
+  background-color: purple;
+  border-radius: 20px;
+  z-index:100;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+#close-icon {
+  float: right;
+  margin: 5px;
+  background-color: #db4d4d;
+  border-radius: 100%;
+}
+
+#debate-web-full {
+  background-color: purple;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 20px;
+  z-index: 2;
+  opacity: 0.9;
+}
