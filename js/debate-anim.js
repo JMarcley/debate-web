@@ -98,9 +98,17 @@ $( window ).on('resize', function() {
 // });
 
 function fullScreen() {
-  $("#full-screen-placeholder").load("full-screen-content.html #debate-web-full", function() {
-    setToFullScreen();
-  });
+  $("#placeholder").load("full-screen-content.html", function(responseText, statusText, xhr)
+        {
+                // if(statusText == "success")
+                //         alert("Successfully loaded the content!");
+                // if(statusText == "error")
+                //         alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
+
+        setToFullScreen();
+
+        });
+
 }
 
 function setToFullScreen() {
@@ -116,48 +124,6 @@ function setToFullScreen() {
 $debateCont.click( function () {
 
   $("html body").animate({ scrollTop: $('#debate').offset().top }, 1000, function() {fullScreen()});
-  // window.scroll(0,findPos(document.getElementById("debate")));
-
-  // $debateCont.toggleClass( "full-screen" );
-
-
-  // if ( $debateCont.hasClass( "full-screen-anim" ) ) {
-  //
-  //   // TweenLite.to($debateCont, 1, {
-  //   //                               top: 0px,
-  //   //                               left: 0px,
-  //   //                               width: $window.width() - 2 * parseInt($(".full-screen").css('margin-left')),
-  //   //                               height: 0.5 * ($window.width() - 2 * parseInt($(".full-screen").css('margin-left')))
-  //   //                             });
-  //   $debateCont.toggleClass( "full-screen-static" );
-  //   TweenLite.to($debateCont, 1, {className: "-=full-screen-anim"});
-  //   TweenLite.to($debateCont, 1, {
-  //                                 width: widthFunc("mini"),
-  //                                 height: heightFunc("mini"),
-  //                                 onComplete: hideClose
-  //                                });
-  //   TweenLite.to($("#close-icon"), 1, {autoAlpha: 0});
-  //
-  //   // widthHeightRatio( $window.width() - 2 * parseInt($(".full-screen").css('margin-left')) );
-  //
-  // } else {
-  //
-  //   $debateCont.toggleClass( "full-screen-static" );
-  //   TweenLite.to($debateCont, 1, { className: "+=full-screen-anim" });
-  //   TweenLite.to($debateCont, 0.75, {
-  //                                     width: widthFunc("full-screen"),
-  //                                     height: heightFunc("full-screen"),
-  //                                     onComplete: preTweenShowClose
-  //                                   });
-  //
-  //   // TweenLite.to($debateCont, 1, {
-  //   //                               width: $debateCont.parent().width(),
-  //   //                               height: 0.5 * $debateCont.parent().width()
-  //   //                             });
-  //
-  //   // widthHeightRatio( $debateCont.parent().width() );
-  //
-  // }
 
 });
 
