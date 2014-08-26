@@ -39,10 +39,17 @@ join-btn {
 }
 
 #close-icon {
-  float: right;
+  /*float: right;*/
+  position: absolute;
+  right: 0px;
+  top: 0px;
   margin: 5px;
-  background-color: #db4d4d;
+  background-color: #e6e6e6;
   border-radius: 100%;
+}
+
+#close-icon:hover {
+  background-color: #db4d4d;
 }
 
 #debate-web-full {
@@ -53,4 +60,36 @@ join-btn {
   margin: 20px;
   z-index: 2;
   opacity: 0.9;
+
+      /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.full-center {
+  text-align: center;
+  width: 35%;
+  height: 20%;
+  /*margin-top: 10 auto;
+  margin-left: 10 auto;*/
+  border-radius: 100%/80%;
+  background-color: blue;
+}
+
+.subclaim {
+  width: 35%;
+  height:20%;
+  background-color: green;
+  text-align: center;
 }

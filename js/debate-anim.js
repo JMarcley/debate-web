@@ -106,6 +106,7 @@ function fullScreen() {
                 //         alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
 
         setToFullScreen();
+        onScreenLoad();
 
         });
 
@@ -116,7 +117,7 @@ function setToFullScreen() {
                              width: $window.width() - 2 * parseInt($('#debate-web-full').css('margin-left')),
                              height: $window.height() - 2 * parseInt($('#debate-web-full').css('margin-top'))
   });
-  TweenLite.from($('#debate-web-full'), 1, {autoAlpha: 0});
+  TweenLite.from($('#placeholder').children(), 1, {autoAlpha: 0});
 }
 
 
@@ -128,26 +129,27 @@ $debateCont.click( function () {
 });
 
 
-$( "#close-icon" )
-  .mouseenter(function() {
-     TweenLite.to($("#close-icon"), 0.5, {autoAlpha: 1});
-  })
-  .mouseleave(function() {
-    TweenLite.to($("#close-icon"), 0.5, {autoAlpha: 0.4});
-  });
+// $( "#close-icon" )
+//   .mouseenter(function() {
+//      TweenLite.to($("#close-icon"), 0.5, {autoAlpha: 1});
+//   })
+//   .mouseleave(function() {
+//     TweenLite.to($("#close-icon"), 0.5, {autoAlpha: 0.4});
+//   });
 
 
-function preTweenShowClose() {
-  TweenLite.from($("#close-icon"), 10, {autoAlpha: 0, onComplete: showClose});
-}
 
-function showClose() {
-  TweenLite.to($("#close-icon"), 10, {autoAlpha: 0.4});
-}
-
-function hideClose() {
-  TweenLite.to($("#close-icon"), 1, {autoAlpha: 0});
-}
+// function preTweenShowClose() {
+//   TweenLite.from($("#close-icon"), 10, {autoAlpha: 0, onComplete: showClose});
+// }
+//
+// function showClose() {
+//   TweenLite.to($("#close-icon"), 10, {autoAlpha: 0.4});
+// }
+//
+// function hideClose() {
+//   TweenLite.to($("#close-icon"), 1, {autoAlpha: 0});
+// }
 
 
 //Finds y value of given object

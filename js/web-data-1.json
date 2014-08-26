@@ -1,0 +1,18 @@
+{
+  "short_text": "Vaccines do not cause autism",
+  "full_text": "Vaccines (as well as their preservatives like mercury and thymerisol) do not cause autism",
+  "claims": [
+    {
+      "claim_short_text": "Studies have failed to find association between vaccines and autism",
+      "claim_full_text": "12 independent, epidemiological studies from have failed to find any association between vaccines and autism",
+      "claim_citations": "[citations]",
+      "claim_support": "Epidemiological studies are well powered, so such a connection would likely to have been found had it existed"
+    }, {
+      "claim_short_text": "No positive causal relationship between vaccine rates and autism incidence",
+      "claim_full_text": "While vaccination rates have gone down, the incidence of autism has gone up. If a positive causal relationship existed, the opposite trend would be found"
+    }, {
+      "claim_short_text": "Exposure to preservatives has not resulted in increased risk",
+      "claim_full_text": "Instances in which mothers or infants are directly exposed to thymerisol or mercury has not resulted in increased risk for autism"
+    }
+  ]
+}
