@@ -85,6 +85,7 @@ join-btn {
   margin-left: 10 auto;*/
   border-radius: 100%/80%;
   background-color: blue;
+  padding: 10px;
 }
 
 .subclaim {
@@ -92,4 +93,11 @@ join-btn {
   height:20%;
   background-color: green;
   text-align: center;
+  padding: 10px;
+}
+
+#subclaim-1, #subclaim-2, #subclaim-3,
+#subclaim-4, #subclaim-5, #subclaim-0
+{
+  position: absolute;
 }
