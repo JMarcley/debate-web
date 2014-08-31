@@ -22,6 +22,11 @@ function onScreenLoad() {
         class: "subclaim",
         html: "<p>" + web_data.claims[ index ].claim_full_text + "</p>"
       }).appendTo("#debate-web-full");
+
+      $("#subclaim-" + index).html( function () {
+        return fillCircle($(this));
+      });
+
     })
 
 
@@ -38,12 +43,15 @@ function onScreenLoad() {
       var left = width * 0.5 + width * lengthTuner * unitLocation[index][0];
       var top = height * 0.5 + height * lengthTuner * unitLocation[index][1];
 
-
+      // sizeOfSub($("#subclaim-" + index));
 
       $("#subclaim-" + index).css({
 
-                                   width: function ( index, value ) {
-                                     return 200;
+                                   width: function () {
+                                     return sizeOfSub( $(this) );
+                                   },
+                                   height: function () {
+                                     return parseFloat( $(this).css("width") ) * .5;
                                    },
                                    left: function ( index, value ) {
                                      return left - parseFloat( $(this).css("width") ) / 2;
@@ -55,17 +63,22 @@ function onScreenLoad() {
     });
   }
 
-  console.log(width, height);
-
   });
 
 
 }
 
 function sizeOfSub($obj) {
+
+  // fillCircle($obj);
+
   var textLength = $obj.text().length
 
-
+  if (textLength < 135) {
+    return 200;
+  } else {
+    return 300;
+  }
 }
 
 function webLocation(count) {
