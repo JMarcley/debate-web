@@ -1,0 +1,475 @@
+{
+  "short_text": "Vaccines do not cause autism",
+  "full_text": "Vaccines (as well as their preservatives like mercury and thymerisol) do not cause autism",
+  "sum_plus": 1,
+  "sum_minus": 1,
+  "claims": [
+    {
+      "index": 1,
+      "plus": 4,
+      "minus": 11,
+      "claim_short_text": "Studies have failed to find association between vaccines and autism",
+      "claim_full_text": "12 independent, epidemiological studies have failed to find any association between vaccines and autism",
+      "claim_citations": "[citations]",
+      "claim_support": "Epidemiological studies are well powered, so such a connection would likely to have been found had it existed",
+      "support": [
+        {
+          "plus": 18,
+          "minus": 3,
+          "text": "Great point; you should also consider this other paper by Johnson et al discussing the importance of XYZ",
+          "flag_user": 5,
+	        "flag_admin": 0
+        }, {
+          "plus": 1,
+          "minus": 1,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 0,
+	        "flag_admin": 1
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 1,
+          "minus": 11,
+          "text": "This is complete nonsense",
+          "flag_user": 1,
+	        "flag_admin": 0
+        }, {
+          "plus": 7,
+          "minus": 7,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 3,
+      	  "flag_admin": 0
+        }
+      ]
+    }, {
+      "index": 2,
+      "plus": 4,
+      "minus": 1,
+      "claim_short_text": "No positive causal relationship between vaccine rates and autism incidence",
+      "claim_full_text": "While vaccination rates have gone down, the incidence of autism has gone up. If a positive causal relationship existed, the opposite trend would be found",
+      "support": [
+        {
+          "plus": 10,
+          "minus": 1,
+          "text": "Great point; you should also consider this other paper by Johnson et al discussing the importance of XYZ",
+          "flag_user": 11,
+      	  "flag_admin": 1
+        }, {
+          "plus": 1,
+          "minus": 10,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 7,
+          "minus": 8,
+          "text": "This is complete nonsense",
+          "flag_user": 1,
+      	  "flag_admin": 0
+        }, {
+          "plus": 0,
+          "minus": 11,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 7,
+      	  "flag_admin": 1
+        }, {
+          "plus": 2,
+          "minus": 4,
+          "text": "No way Jose this claim is horrible this claim is horrible this claim is horrible horrible horrible",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }, {
+          "plus": 8,
+          "minus": 8,
+          "text": "I call bullshit",
+          "flag_user": 17,
+      	  "flag_admin": 0
+        }
+      ]
+    }, {
+      "index": 3,
+      "plus": 4,
+      "minus": 4,
+      "claim_short_text": "Exposure to preservatives has not resulted in increased risk",
+      "claim_full_text": "Instances in which mothers or infants are directly exposed to thymerisol or mercury has not resulted in increased risk for autism",
+      "support": [
+        {
+          "plus": 8,
+          "minus": 8,
+          "text": "Great point; you should also consider this other paper by Johnson et al discussing the importance of XYZ",
+          "flag_user": 11,
+      	  "flag_admin": 1
+        }, {
+          "plus": 2,
+          "minus": 3,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }, {
+          "plus": 13,
+          "minus": 1,
+          "text": "This claim is awesome awesome awesome awesome awesome awesome awesome awesome",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }, {
+          "plus": 17,
+          "minus": 18,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 9,
+          "minus": 3,
+          "text": "This is complete nonsense",
+          "flag_user": 1,
+      	  "flag_admin": 0
+        }
+      ]
+    }, {
+      "index": 4,
+      "plus": 13,
+      "minus": 18,
+      "claim_short_text": "The vaccine mechanism of action is benign",
+      "claim_full_text": "Given the natural mechanism which vaccines simulate, there is no a priori reason  to think they would cause harm",
+      "support": [
+        {
+          "plus": 11,
+          "minus": 11,
+          "text": "Great point; you should also consider this other paper by Johnson et al discussing the importance of XYZ",
+          "flag_user": 12,
+      	  "flag_admin": 1
+        }, {
+          "plus": 2,
+          "minus": 3,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 9,
+      	  "flag_admin": 0
+        }, {
+          "plus": 13,
+          "minus": 1,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }, {
+          "plus": 17,
+          "minus": 18,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 11,
+      	  "flag_admin": 1
+        }, {
+          "plus": 33,
+          "minus": 20,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 6,
+      	  "flag_admin": 0
+        }, {
+          "plus": 17,
+          "minus": 6,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 18,
+      	  "flag_admin": 0
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 9,
+          "minus": 3,
+          "text": "This is complete nonsense",
+          "flag_user": 1,
+      	  "flag_admin": 0
+        }
+      ]
+    }, {
+      "index": 5,
+      "plus": 11,
+      "minus": 44,
+      "claim_short_text": "Original autism and vaccine study has been discredited",
+      "claim_full_text": "David Wakefield’s original study purporting to show a link between autism and vaccines was found to be fabricated, and has since been discredited",
+      "claim_citations": "[citations]",
+      "support": [
+        {
+          "plus": 21,
+          "minus": 18,
+          "text": "Great point; you should also consider this other paper by Johnson et al discussing the importance of XYZ",
+          "flag_user": 5,
+      	  "flag_admin": 1
+        }, {
+          "plus": 1,
+          "minus": 1,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 11,
+      	  "flag_admin": 0
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 1,
+          "minus": 11,
+          "text": "This is complete nonsense",
+          "flag_user": 18,
+      	  "flag_admin": 1
+        }, {
+          "plus": 7,
+          "minus": 7,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 12,
+      	  "flag_admin": 1
+        }
+      ]
+    }, {
+      "index": 6,
+      "plus": 11,
+      "minus": 12,
+      "claim_short_text": "Support for vaccine link driven is by cognitive bias",
+      "claim_full_text": "The cognitive bias of “temporal association” likely accounts for the strong convictions of mothers espousing the vaccine link",
+      "claim_support": "Temporal associations are correlational and do not imply causation",
+      "support": [
+        {
+          "plus": 10,
+          "minus": 1,
+          "text": "This claim is awesome awesome awesome",
+          "flag_user": 11,
+      	  "flag_admin": 1
+        }, {
+          "plus": 1,
+          "minus": 10,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 7,
+          "minus": 88,
+          "text": "This is complete nonsense",
+          "flag_user": 11,
+      	  "flag_admin": 1
+        }, {
+          "plus": 0,
+          "minus": 11,
+          "text": "No way Jose this claim is horrible this claim is horrible this claim is horrible horrible horrible",
+          "flag_user": 7,
+      	  "flag_admin": 0
+        }, {
+          "plus": 22,
+          "minus": 4,
+          "text": "No way Jose",
+          "flag_user": 1,
+      	  "flag_admin": 0
+        }, {
+          "plus": 8,
+          "minus": 8,
+          "text": "I call bullshit",
+          "flag_user": 15,
+      	  "flag_admin": 1
+        }, {
+          "plus": 0,
+          "minus": 11,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 17,
+      	  "flag_admin": 0
+        }, {
+          "plus": 2,
+          "minus": 14,
+          "text": "No way Jose",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }, {
+          "plus": 8,
+          "minus": 18,
+          "text": "No way Jose this claim is horrible this claim is horrible this claim is horrible horrible horrible",
+          "flag_user": 1,
+      	  "flag_admin": 1
+        }, {
+          "plus": 60,
+          "minus": 3,
+          "text": "I call bullshit",
+          "flag_user": 17,
+      	  "flag_admin": 0
+        }, {
+          "plus": 15,
+          "minus": 15,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 17,
+      	  "flag_admin": 1
+        }, {
+          "plus": 201,
+          "minus": 1,
+          "text": "No way Jose",
+          "flag_user": 0,
+      	  "flag_admin": 0
+        }, {
+          "plus": 27,
+          "minus": 140,
+          "text": "The worst sub claim I have ever seen in my life",
+          "flag_user": 18,
+      	  "flag_admin": 1
+        }
+      ]
+    }, {
+      "index": 7,
+      "plus": 14,
+      "minus": 118,
+      "claim_short_text": "There is no apparent relationship between thymerisol and autism",
+      "claim_full_text": "Children who receive vaccines with thymerisol are no more likely to be diagnosed with autism than those who are given vaccines without thymerisol, and those who aren’t given vaccines at all",
+      "support": [
+        {
+          "plus": 210,
+          "minus": 1,
+          "text": "Great point; you should also consider this other paper by Johnson et al discussing the importance of XYZ",
+          "flag_user": 50,
+      	  "flag_admin": 0
+        }, {
+          "plus": 1,
+          "minus": 1,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 11,
+      	  "flag_admin": 0
+        }, {
+          "plus": 11,
+          "minus": 12,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 11,
+      	  "flag_admin": 1
+        }, {
+          "plus": 16,
+          "minus": 17,
+          "text": "This claim is awesome awesome awesome",
+          "flag_user": 19,
+      	  "flag_admin": 0
+        }, {
+          "plus": 1,
+          "minus": 19,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 7,
+      	  "flag_admin": 1
+        }, {
+          "plus": 180,
+          "minus": 19,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 6,
+      	  "flag_admin": 1
+        }, {
+          "plus": 111,
+          "minus": 7,
+          "text": "Fantastically amazing claim",
+          "flag_user": 1,
+      	  "flag_admin": 1
+        }, {
+          "plus": 1,
+          "minus": 1,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 11,
+      	  "flag_admin": 0
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 121,
+          "minus": 11,
+          "text": "This is complete nonsense",
+          "flag_user": 19,
+      	  "flag_admin": 3
+        }, {
+          "plus": 77,
+          "minus": 88,
+          "text": "This claim blows this claim blows this claim blows this claim blows this claim blows this claim blow this claim blows this claim blows",
+          "flag_user": 12,
+	  "flag_admin": 1
+        }, {
+          "plus": 17,
+          "minus": 17,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 12,
+      	  "flag_admin": 1
+        }, {
+          "plus": 7,
+          "minus": 7,
+          "text": "The worst sub claim I have ever seen in my life",
+          "flag_user": 18,
+      	  "flag_admin": 10
+        }, {
+          "plus": 80,
+          "minus": 90,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 12,
+      	  "flag_admin": 1
+        }, {
+          "plus": 10,
+          "minus": 11,
+          "text": "This claim blows this claim blows this claim blows this claim blows this claim blows this claim blow this claim blows this claim blows",
+          "flag_user": 11,
+      	  "flag_admin": 0
+        }, {
+          "plus": 16,
+          "minus": 33,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 11,
+      	  "flag_admin": 0
+        }, {
+          "plus": 3,
+          "minus": 3,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 89,
+      	  "flag_admin": 0
+        }, {
+          "plus": 18,
+          "minus": 33,
+          "text": "This claim blows this claim blows this claim blows this claim blows this claim blows this claim blow this claim blows this claim blows this claim blows this claim blows",
+          "flag_user": 12,
+      	  "flag_admin": 1
+        }, {
+          "plus": 7,
+          "minus": 7,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 12,
+      	  "flag_admin": 1
+        }
+      ]
+    }, {
+      "index": 8,
+      "plus": 47,
+      "minus": 1,
+      "claim_short_text": "Vaccine volume is minute compared to daily natural exposure",
+      "claim_full_text": "The volume of both thymerisol and vaccine antigens are incredibly small, and pale in comparison to what children are exposed to in their natural environment",
+      "support": [
+        {
+          "plus": 18,
+          "minus": 3,
+          "text": "Fantastically amazing claim",
+          "flag_user": 17,
+      	  "flag_admin": 1
+        }, {
+          "plus": 90,
+          "minus": 11,
+          "text": "Its also worth noting that these types of studies have found links between environmental factors and mental illness in the past",
+          "flag_user": 10,
+      	  "flag_admin": 1
+        }
+      ],
+      "rebuttal": [
+        {
+          "plus": 19,
+          "minus": 18,
+          "text": "This claim blows this claim blows this claim blows this claim blows this claim blows this claim blow this claim blows this claim blows this claim blows this claim blows",
+          "flag_user": 18,
+      	  "flag_admin": 1
+        }, {
+          "plus": 5,
+          "minus": 3,
+          "text": "Epidemiological studies are for pussies",
+          "flag_user": 33,
+      	  "flag_admin": 0
+        }
+      ]
+    }
+  ]
+}
