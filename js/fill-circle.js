@@ -1,7 +1,5 @@
 function fillCircle ($obj) {
 
-  console.log($obj);
-
   var length = $obj.text().length
   var p_html = $obj.text();
 
@@ -12,13 +10,11 @@ function fillCircle ($obj) {
 
   var circleHeight = [$obj.css("line-height"), $obj.css("padding-top")];
 
-  var r = 0;
   var i = 0;
   while ( i < p_html.length ) {
 
-    r++;
-
     var k = 0; newPHTML = ""; j = 0;
+
     for ( i = 0; i < length; i++ ) {
 
       if ( j >= charPerLine.length ) {
@@ -35,11 +31,10 @@ function fillCircle ($obj) {
         newPHTML += "<br>";
       }
 
-        // console.log(i, newPHTML);
-
     }
 
-    if (r > 5) {break}
+    // console.log(i, p_html.length);
+    // console.log(charPerLine);
     charPerLine = linesInShape( j+1 );
 
   }
@@ -51,11 +46,20 @@ function fillCircle ($obj) {
 function linesInShape(lines) {
   var charArray = [];
 
-  for (i = 0; i < lines / 2; i++) {
-    charArray[i] = (i+1) * 5;
-  }
-  for (i = Math.floor(lines / 2); i < lines; i++) {
-    charArray[i] = charArray[i-1] - 5;
+  if (lines % 2 === 0) {
+    for (i=0; i < lines / 2; i++) {
+      charArray[i] = (i+1) * 5;
+    }
+    for (i = Math.floor(lines/2); i < lines; i++) {
+      charArray[i] = charArray[lines-i-1];
+    }
+  } else {
+    for (i=0; i < lines/2; i++) {
+      charArray[i] = (i+1) * 5;
+    }
+    for (i = Math.ceil(lines/2); i < lines; i++) {
+      charArray[i] = charArray[lines - i - 1];
+    }
   }
 
   return charArray;
