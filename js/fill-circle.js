@@ -4,58 +4,63 @@ function fillCircle ($obj) {
   var p_html = $obj.text();
 
   var newPHTML = "";
-  // console.log(newPHTML.push("i"));
 
-  var charPerLine = linesInShape(5);
+
+  var charPerLine = linesInShape(2);
 
   var circleHeight = [$obj.css("line-height"), $obj.css("padding-top")];
 
-  var i = 0;
-  while ( i < p_html.length ) {
+  var w = 0, p, q, charsThisLine, t, n = 1;
+  while ( w < length ) {
 
-    var k = 0; newPHTML = ""; j = 0;
+    newPHTML = "";
+    w = 0;
+    charPerLine = linesInShape( n );
 
-    for ( i = 0; i < length; i++ ) {
+    for (p = 0; p < charPerLine.length; p++) {
 
-      if ( j >= charPerLine.length ) {
-        break;
+      // determine how many character spaces before a line break
+      // value stored in charsThisLine variable
+      for (q = charPerLine[p]; q > 0; q--) {
+        // console.log(w,q, p_html[w+q]);
+        if ( p_html[w + q] === " ") {
+          charsThisLine = q;
+          break;
+        }
       }
 
-      if ( k < charPerLine[j] ) {
-        newPHTML += p_html[i];
-        k++;
-      } else {
-        newPHTML += p_html[i];
-        j++;
-        k = 0;
-        newPHTML += "<br>";
+      for (t = 0; t < charsThisLine; t++){
+        if (p_html[w+t] !== undefined) {
+          newPHTML += p_html[w + t];
+        }
       }
+
+      newPHTML += "<br>";
+      w += charsThisLine;
 
     }
 
-    // console.log(i, p_html.length);
-    // console.log(charPerLine);
-    charPerLine = linesInShape( j+1 );
+    n++;
 
   }
 
   return newPHTML;
-
 }
+
 
 function linesInShape(lines) {
   var charArray = [];
 
   if (lines % 2 === 0) {
     for (i=0; i < lines / 2; i++) {
-      charArray[i] = (i+1) * 5;
+      charArray[i] = (i+1) * 10;
     }
     for (i = Math.floor(lines/2); i < lines; i++) {
       charArray[i] = charArray[lines-i-1];
     }
   } else {
     for (i=0; i < lines/2; i++) {
-      charArray[i] = (i+1) * 5;
+      charArray[i] = (i+1) * 10;
     }
     for (i = Math.ceil(lines/2); i < lines; i++) {
       charArray[i] = charArray[lines - i - 1];

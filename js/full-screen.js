@@ -10,7 +10,6 @@ function onScreenLoad() {
     // console.log(web_data);
     var claimsToDisplay = 5;
     var topClaims = topSubclaims(web_data);
-    console.log(topClaims);
 
     var num_subs = topClaims.length;
     var centerCent = 0.9; //percentage of fullscreen area for web
@@ -30,18 +29,15 @@ function onScreenLoad() {
 
 
     if (web_data.claims.length <= claimsToDisplay) {
-      console.log("this???");
       var topClaimsWebOrdered = claimWebArrangement(topClaims);
       loadSubclaims(topClaimsWebOrdered, web_data);
       displaySubclaims(topClaimsWebOrdered, web_data, width, containerWidth, widthTuner, centerCent, height, containerHeight, heightTuner); // function to arrange the subclaims appropriately in the web. can accept any number of claims
     } else {
-      console.log("this right");
       var topShortened = [];
       for (i = 0; i < claimsToDisplay; i++) {
         topShortened[i] = topClaims[i];
       }
       var topClaimsWebOrdered = claimWebArrangement(topShortened);
-      console.log(topClaimsWebOrdered);
       loadSubclaims(topClaimsWebOrdered, web_data, true);
       displaySubclaims(topShortened, web_data,  width, containerWidth, widthTuner, centerCent, height, containerHeight, heightTuner, true);
 
@@ -92,9 +88,8 @@ function displayGeneral(width, centerCent, containerWidth, containerHeight) {
 function loadSubclaims(order, data, ellipsis) {
   var i;
   if (ellipsis) { order.splice(Math.ceil(order.length/2), 0, -1) }
-  console.log(order);
+
   for (i = 0; i < order.length; i++) {
-    console.log(i);
     if (order[i] === -1) {
 
       $("<div/>", {
@@ -135,18 +130,14 @@ function displaySubclaims(order, data, width, containerWidth, widthTuner, center
 
   if (ellipsis === true) {
     var unitLocation = webLocation(order.length + 1);
-    console.log("this");
   } else {
     var unitLocation = webLocation(order.length);
-    console.log("not this");
   }
 
-  console.log(unitLocation);
   for (i = 0; i <= order.length; i++) {
     // Center location of each subclaim measured in pixels from the left or top of parent element
     var subHorizCenter = containerWidth * (0.5 + (1 - centerCent) * 0.5) + width * widthTuner * unitLocation[i][0];
     var subVertCenter = containerHeight * 0.5 + height * heightTuner * unitLocation[i][1];
-    console.log(subHorizCenter, subVertCenter);
 
     $("#subclaim-" + i).css({
                                  width: function () {
@@ -159,7 +150,7 @@ function displaySubclaims(order, data, width, containerWidth, widthTuner, center
                                    return subHorizCenter - parseFloat( $(this).css("width") ) / 2;
                                  },
                                  top: function () {
-                                   console.log($(this).css("left"), $(this).css("right"));
+                                  //  console.log($(this).css("left"), $(this).css("right"));
                                    return subVertCenter - parseFloat( $(this).css("height") ) / 2;
                                  }
                                 });
