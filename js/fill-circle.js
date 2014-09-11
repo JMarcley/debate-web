@@ -35,8 +35,12 @@ function fillCircle ($obj) {
         }
       }
 
-      newPHTML += "<br>";
-      w += charsThisLine;
+      w += charsThisLine + 1;
+
+      if (w < length) {
+        newPHTML += "<br>";
+      }
+
 
     }
 
@@ -44,7 +48,9 @@ function fillCircle ($obj) {
 
   }
 
-  return newPHTML;
+
+
+  return "<p>" + newPHTML + "</p>";
 }
 
 
